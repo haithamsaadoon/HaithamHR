@@ -13,7 +13,7 @@
       text-align: center;
       font-size: 30px;
 	  height:60px;
-	 
+
   }
   .modal-footer {
       background-color: #f9f9f9;
