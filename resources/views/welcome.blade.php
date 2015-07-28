@@ -67,7 +67,7 @@
 <script>
 $(document).ready(function(){
    
-        $("#myModal").modal({backdrop: false});
+        $("#myModal").modal({backdrop: "static"});
    
 });
 </script>
