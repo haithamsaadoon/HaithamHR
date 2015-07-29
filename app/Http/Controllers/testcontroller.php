@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\hruser;
+use App\employee;
 
 use Illuminate\Http\Request;
 
@@ -15,10 +15,10 @@ class testcontroller extends Controller
      
       // $users=hruser::findOrfail(2);
     //   $users=  hruser::where("users_name","=","haitham")->take(0)->count();
-      $rawaa= new hruser();
+      $rawaa= new employee();
       $rawaa->users_name="rawaa";
       $rawaa->users_password="rawaa";
-     // $rawaa->save();
+      $rawaa->save();
       
       return compact(rawaa);
         
