@@ -6,6 +6,23 @@
   <script src="hr/../../public/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
   <script src="hr/../../public/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
   <style>
+      body
+      {
+          
+          height: 100%;
+          width: 100%;
+      }
+      .container
+      { height :600px;
+        width: 1228px;
+        margin-top: opx;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+       background-image : url("hr/../..//public/img/HR - Copy.jpg");
+
+          
+      }
   .modal-header, h5, .close {
 	  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
       background-color: #f9f9f9;
@@ -20,11 +37,11 @@
   }
   </style>
 </head>
-<body>
+<body >
 
 <div class="container">
   
-
+fdf
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
