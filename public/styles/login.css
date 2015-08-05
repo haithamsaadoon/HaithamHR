@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 5, 2015, 9:30:46 AM
+    Author     : Haitham
+*/
+/* amiri-regular - arabic_latin */
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(hr/../../public/styles/fonts/DroidKufi-Regular.eot);
+  src: 
+     
+       url(hr/../../public/styles/fonts/DroidKufi-Regular.woff) format('woff'),
+       url(//localhost/hr/public/styles/fonts/DroidKufi-Regular.ttf) format('truetype');
+}
+
+.page,body
+{   font-family: 'Droid Arabic Kufi', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/HR - Copy2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+body
+{
+    background-color: #003399;
+    
+    
+}
+.login-container
+{
+    display: none;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   width: 300px;
+   height: 300px;
+   background-color: white;
+   
+   border-radius: 15px;
+ 
+  }
+.login-header
+ {
+     width: 100%;
+     background-color: #0077b3;
+     color: #ffffff;
+     padding: 5px 10px;
+     text-align: center;
+     border-bottom: solid;
+     border-bottom-width: thin;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+}
+.login-body
+{
+    
+    margin: 20px 20px;
+    
+}

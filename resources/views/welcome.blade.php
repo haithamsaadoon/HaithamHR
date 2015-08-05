@@ -35,37 +35,36 @@
   .modal-footer {
       background-color: #f9f9f9;
   }
+  
   </style>
 </head>
 <body >
 
 <div class="container">
   
-fdf
+
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
+        <div class="modal-header" style="padding:10px 50px;">
           <button type="button" class="close" data-dismiss="modal"></button>
           <h4><span class="glyphicon glyphicon-lock"></span> تسجيل دخول</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
+            <form role="form"  >
             <div class="form-group">
               <label for="usrname"><span class="glyphicon glyphicon-user"></span> أسم المستخدم</label>
               <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> كلمة المرور</label>
+              <label for="psw"><span class="glyphicon glyphicon-credit-card"></span> كلمة المرور</label>
               <input type="text" class="form-control" id="psw" placeholder="Enter password">
             </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-              <button type="submit" class="btn btn-success btn-block"> تسجيل دخول<span class="glyphicon glyphicon-off"></span></button>
+            
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-log-in"></span> تسجيل دخول</button>
           </form>
         </div>
         <div class="modal-footer">
