@@ -7,8 +7,6 @@
   <link href="hr/../../public/styles/login.css" rel="stylesheet" type="text/css"/>
   <script src="hr/../../public/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
   <script src="hr/../../public/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-
-
 </head>
       
     <body>
@@ -18,10 +16,11 @@
               <h4>تسجيل دخول</h4>
           </div>
             <div class="login-body">
+                {!! Form::open(array('action'=>'testcontroller@allusers','method'=>'get')) !!}
           <form role="form"  >
             <div class="form-group">
               <label for="usrname"><span class="glyphicon glyphicon-user"></span> أسم المستخدم</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              <input type="text" name="username" class="form-control" id="usrname" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label for="psw"><span class="glyphicon glyphicon-credit-card"></span> كلمة المرور</label>
@@ -29,7 +28,8 @@
             </div>
             
               <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-log-in"></span> تسجيل دخول</button>
-          </form> 
+         {!! csrf_field() !!}
+              {!! form::close()!!}
             </div>
         </div>
           <div class="alert alert-danger alert-dismissible" role="alert">

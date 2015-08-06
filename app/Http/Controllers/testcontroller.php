@@ -15,13 +15,13 @@ class testcontroller extends Controller
      
       // $users=hruser::findOrfail(2);
     //   $users=  hruser::where("users_name","=","haitham")->take(0)->count();
-      $rawaa= new employee();
-      $rawaa->users_name="rawaa";
-      $rawaa->users_password="rawaa";
-      $rawaa->save();
+     // $rawaa= new employee();
+     // $rawaa->users_name="rawaa";
+      //$rawaa->users_password="rawaa";
+      //$rawaa->save();
       
-      return compact(rawaa);
-        
+      //return compact(rawaa);
+        print_r($_GET); 
         
     }
 }
