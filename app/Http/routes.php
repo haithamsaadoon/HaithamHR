@@ -30,6 +30,7 @@ Route::get('/', function () {
 
 
 Route::get('/users', "testcontroller@allusers");
+Route::get('/employee', function(){return view('employee');});
 
 
 
