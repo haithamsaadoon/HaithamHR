@@ -10,3 +10,4 @@ class employee extends Model
      protected $primaryKey='EmSequ';
      public $timestamps = false;
 }
+
