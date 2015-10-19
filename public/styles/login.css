@@ -17,24 +17,15 @@ and open the template in the editor.
   src: 
      
        url(hr/../../public/styles/fonts/DroidKufi-Regular.woff) format('woff'),
-       url(//localhost/hr/public/styles/fonts/DroidKufi-Regular.ttf) format('truetype');
+       url(//localhost:8888/hrclone/public/styles/fonts/DroidKufi-Regular.ttf) format('truetype');
 }
 
 .page,body
 {   font-family: 'Droid Arabic Kufi', sans-serif;
     height: 100%;
     width: 100%;
-    background-image: url("../img/HR - Copy2.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    
-}
-body
-{
-    background-color: #003399;
-    
-    
-}
+   background-color: #003399;
+   }
 .login-container
 {
     display: none;
@@ -48,7 +39,7 @@ body
    height: 300px;
    background-color: white;
    
-   border-radius: 15px;
+   border-radius: 10px;
  
   }
 .login-header
@@ -60,9 +51,11 @@ body
      text-align: center;
      border-bottom: solid;
      border-bottom-width: thin;
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
-}
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     
+     
+ }
 .login-body
 {
     
